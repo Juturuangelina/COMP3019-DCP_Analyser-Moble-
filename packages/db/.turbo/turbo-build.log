@@ -1,0 +1,10 @@
+[?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
+> @repo/db@0.0.1 prebuild C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\packages\db
+> pnpm db:generate[6;1H[?25h[?25l
+> @repo/db@0.0.1 db:generate C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\packages\db
+> prisma generate[11;1H[?25h[2mEnvironment variables loaded from .env
+[22m[2mPrisma schema loaded from prisma\schema.prisma
+[?25l[22m[31m[1mError: [m
+EPERM: operation not permitted, rename 'C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\node_modules\.pnpm\@prisma+client@6.3.1_prisma_139b37887008538b87185db74f9edbae\node_modules\.prisma\client\query_engine-windows.dll.node.tmp39432' -> 'C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\node_modules\.pnpm\@prisma+client@6.3.1_prisma_139b37887008538b87185db74f9edbae\node_modules\.prisma\client\query_engine-windows.dll.node'[22;1H[?25h[30m[41m ELIFECYCLE [m [31mCommand failed with exit code 1.
+[m[30m[41m ELIFECYCLE [m [31mCommand failed with exit code 1.
+[?9001l[?1004l[m

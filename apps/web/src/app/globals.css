@@ -1,41 +1,22 @@
+/* FILE: src/app/globals.css
+   PURPOSE: Activates Tailwind across the app and sets base-level
+   styles and CSS variables used globally. Keep this minimal —
+   component-level styling belongs in the component via Tailwind classes. */
+
 @import "tailwindcss";
-
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
-
 @config "../../tailwind.config.ts";
 
 :root {
-  --background: white;
-  --foreground: #0a0a0a;
-  --text: theme("colors.gray.900");
-  --textHover: theme("colors.gray.700");
-  --text-secondary: theme("colors.gray.600");
-  --text-secondaryHover: theme("colors.gray.400");
-  --wsu: #a31631;
-  --wsu-light: #853846;
-}
-
-html[data-theme="dark"] {
-  --background: theme("colors.gray.900");
-  --foreground: #ededed;
-  --text: theme("colors.gray.50");
-  --textHover: theme("colors.gray.300");
-  --text-secondary: theme("colors.gray.400");
-  --text-secondaryHover: theme("colors.gray.500");
-  --sidebar-bg: #1a1a1a;
-  --card-bg: theme("colors.gray.800");
-  --border: theme("colors.gray.700");
+  /* Your palette as reusable CSS variables */
+  --background: #F8F2F5;      /* Blush pink — primary background */
+  --foreground: #070429;      /* Near black purple — primary text */
+  --primary: #7880E7;         /* Mid purple — buttons, accents */
+  --primary-soft: #A4AAEC;    /* Soft lavender — subtle text */
+  --muted: #534AB7;           /* Deeper purple — secondary text */
+  --neutral: #908478;         /* Warm taupe — source tags etc */
 }
 
 html {
   background: var(--background);
-}
-
-@theme inline {
-  --color-primary: var(--text);
-  --color-primaryHover: var(--textHover);
-  --color-secondary: var(--text-secondary);
-  --color-secondaryHover: var(--text-secondaryHover);
-  --color-wsu: var(--wsu);
-  --color-wsu-light: var(--wsu-light);
+  color: var(--foreground);
 }

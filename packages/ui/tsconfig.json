@@ -1,0 +1,9 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": ["@vitest/browser/providers/playwright"]
+  },
+  "include": ["src", "./vitest.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

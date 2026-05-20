@@ -1,0 +1,33 @@
+{
+  "name": "@repo/utils",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "tsc --noEmit && vitest",
+    "dev:test": "tsc --noEmit && vitest",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "exports": {
+    "./messages": {
+      "types": "./src/messages.ts",
+      "default": "./dist/messages.js"
+    },
+    "./classes": {
+      "types": "./src/classes.ts",
+      "default": "./dist/classes.js"
+    },
+    "./url": {
+      "types": "./src/url.ts",
+      "default": "./dist/url.js"
+    }
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "vitest": "^3.0.4"
+  },
+  "dependencies": {}
+}
