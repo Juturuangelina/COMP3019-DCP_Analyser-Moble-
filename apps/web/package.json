@@ -13,9 +13,10 @@
     "dev:test": "vitest"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@heroicons/react": "^2.2.0",
-    "@repo/ui": "workspace:*",
     "@repo/db": "workspace:*",
+    "@repo/ui": "workspace:*",
     "@repo/utils": "workspace:*",
     "@tailwindcss/postcss": "^4.0.0",
     "marked": "^15.0.6",

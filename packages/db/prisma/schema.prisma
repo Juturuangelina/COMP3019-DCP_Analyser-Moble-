@@ -1,5 +1,6 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// Each row in this table = one rule from the parramatta JSON file.
+// permissible_uses and canonical_use_ids are stored as pipe-separated
+
 
 generator client {
   provider = "prisma-client-js"
@@ -10,26 +11,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Post {
-  id          Int      @id @default(autoincrement())
-  urlId       String   @unique
-  title       String
-  description String
-  content     String
-  imageUrl    String
-  category    String
-  tags        String
-  date        DateTime @default(now())
-  views       Int      @default(0)
-  likes       Int      @default(0)
-  active      Boolean  @default(true)
-  Likes       Like[]
-}
-
-model Like {
-  postId Int
-  userIP String
-  Post   Post   @relation(fields: [postId], references: [id])
-
-  @@id([postId, userIP])
+model Rule {
+  id                    String  @id          // e.g. "185" — matches JSON id
+  developmentGroup      String               // e.g. "Residential Development"
+  developmentSubCategory String             // e.g. "Housing Diversity and Choice"
+  partNumber            String               // e.g. "3"
+  section               String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
+  ruleGroup             String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
+  ruleTitle             String               // often empty string
+  ruleType              String               // "Control" or "Objective"
+  ruleCode              String               // e.g. "O.01"
+  ruleText              String               // the actual rule content
+  sourceRef             String               // e.g. "line:921"
+  appliesTo             String               // e.g. "Housing Diversity and Choice"
+  canonicalUseIds       String               // pipe-separated e.g. "residential_accommodation|granny_flat"
+  permissibleUses       String               // pipe-separated e.g. "Residential Accommodation|Granny Flat"
 }
