@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@config "../../tailwind.config.ts";
+
+:root {
+  --background: white;
+  --foreground: #0a0a0a;
+  --text: theme("colors.gray.900");
+  --textHover: theme("colors.gray.700");
+  --text-secondary: theme("colors.gray.600");
+  --text-secondaryHover: theme("colors.gray.400");
+  --wsu: #a31631;
+  --wsu-light: #853846;
+}
+
+html[data-theme="dark"] {
+  --background: theme("colors.gray.900");
+  --foreground: #ededed;
+  --text: theme("colors.gray.50");
+  --textHover: theme("colors.gray.300");
+  --text-secondary: theme("colors.gray.400");
+  --text-secondaryHover: theme("colors.gray.500");
+  --sidebar-bg: #1a1a1a;
+  --card-bg: theme("colors.gray.800");
+  --border: theme("colors.gray.700");
+}
+
+html {
+  background: var(--background);
+}
+
+@theme inline {
+  --color-primary: var(--text);
+  --color-primaryHover: var(--textHover);
+  --color-secondary: var(--text-secondary);
+  --color-secondaryHover: var(--text-secondaryHover);
+  --color-wsu: var(--wsu);
+  --color-wsu-light: var(--wsu-light);
+}

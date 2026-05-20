@@ -1,0 +1,4739 @@
+[?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
+> @repo/web@0.1.0 dev:test C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\apps\web
+> vitest[6;1H[?25h]0;node (vitest)[?25l[34m[1m[7m
+ DEV [m [34mv3.0.4 [90mC:/Users/Angelina Joyce/Desktop/Semester 7/Full-Stack/Assignment_2/comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1/apps/web[m]0;node (vitest 1)]0;node (vitest 2)]0;node (vitest 4)]0;node (vitest 5)]0;node (vitest 6)[?2026h[33m[1m[11;1H ❯ [35m[22m[7m unit [m src/functions/tags.test.ts[2m [queued][13;1H Test Files [32m[22m[1m0 passed[90m[22m (7)[m
+[2m      Tests [32m[22m[1m0 passed[90m[22m (0)[K[100C[m
+[2m   Start at [22m20:26:45[K[104C
+[2m   Duration [22m824ms[K[107C[?2026l
+[124C[?2026h[6;1H[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/history.test.ts[2m [queued][22m[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/tags.test.ts[2m [queued][22m[K
+[K[2m
+ Test Files [32m[22m[1m0 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m0 passed[90m[22m (0)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m1.20s[K[107C[?2026l
+[124C[?2026h[5;1HPort 63315 is in use, trying another one...[K
+[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/categories.test.ts[2m [queued][22m[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/history.test.ts[2m [queued][22m[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/tags.test.ts[2m [queued][22m[K
+[K[2m
+ Test Files [32m[22m[1m0 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m0 passed[90m[22m (0)[K[m[2m
+   Start at [22m20:26:45[K[104C
+[2m   Duration [22m2.64s[K[107C[?2026l
+[124C]0;node (vitest 2)]0;node (vitest 1)]0;node (vitest 3)[?2026h[4;1H [32m✓ [35m[7m unit [m src/functions/categories.test.ts [2m(2 tests)[90m[22m 5[2mms[m[K
+ [32m✓ [35m[7m unit [m src/functions/history.test.ts [2m(2 tests)[90m[22m 6[2mms[m[K
+ [32m✓ [35m[7m unit [m src/functions/tags.test.ts [2m(2 tests)[90m[22m 6[2mms[m[K
+[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/categories.test.ts[2m 2/2[22m[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/history.test.ts[2m 2/2[22m[K[33m[1m
+ ❯ [35m[22m[7m unit [m src/functions/tags.test.ts[2m 2/2[22m[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[100C[m
+[2m   Start at [22m20:26:45[K[104C
+[2m   Duration [22m3.62s[K[107C[?2026l
+[124C[?2026h[?2026l[4;1H[K
+[K
+[K
+[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m4.61s[K
+[K[124C[?2026h[?2026l[4;1H[K
+[K
+[K
+[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m5.60s[K
+[K[124C[?2026h[?2026l[4;1H[K
+[K
+[K
+[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m6.57s[K
+[K[124C[?2026h[?2026l[4;1H[K
+[K
+[K[33m[1m
+ ❯ [22m[7m browser (chromium) [m src/components/Blog/List.test.tsx[2m [queued][22m[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m7.31s[K
+[K[124C[?2026h[?2026l[4;1H[K
+[K
+[K[33m[1m
+ ❯ [22m[7m browser (chromium) [m src/components/Blog/List.test.tsx[2m [queued][22m[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (6)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m7.64s[K
+[K[124C[?2026h[?2026l[4;1H[K
+[K
+[K[33m[1m
+ ❯ [22m[7m browser (chromium) [m src/components/Blog/List.test.tsx[2m 0/2[22m[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m6 passed[90m[22m (8)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m8.38s[K
+[K[124C[?2026h[?2026l[4;1H [32m✓ [33m[7m browser (chromium) [m src/components/Blog/List.test.tsx [2m(2 tests)[90m[22m 185[2mms[m[K
+[K
+[K[33m[1m
+ ❯ [22m[7m browser (chromium) [m src/components/Blog/List.test.tsx[2m 1/2[22m[K
+[K[2m
+ Test Files [32m[22m[1m3 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m7 passed[90m[22m (8)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m8.59s[K
+[K[124C[?2026h[?2026l[5;1H[K
+[K[33m[1m
+ ❯ [22m[7m browser (chromium) [m src/components/Menu/SummaryItem.test.tsx[2m [queued][22m[K
+[K[2m
+ Test Files [32m[22m[1m4 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m8 passed[90m[22m (8)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m8.89s[K
+[K[124C[?2026h[?2026l[5;1H [32m✓ [33m[7m browser (chromium) [m src/components/Menu/SummaryItem.test.tsx [2m(2 tests)[90m[22m 14[2mms[m[K
+[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m9.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m10.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m11.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m12.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m13.05s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m14.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m15.06s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m16.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m17.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m18.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m19.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m20.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m21.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m22.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m23.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m24.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m25.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m26.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m27.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m28.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m29.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m30.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m31.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m32.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m32.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m33.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m33.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m34.11s[K
+[K[124C[?2026h[7;1H[K
+[K
+[K
+[K
+[K
+[K
+[K[124C[6;1H[K[124C[?2026l[2m[9;1H Test Files [32m[22m[1m5 passed[90m[22m (7)[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[m[2m
+   Start at [22m20:26:45[2m
+   Duration [22m34.22s[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m35.10s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m35.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m36.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m36.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m37.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m37.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m38.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m38.30s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m39.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m39.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m40.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m40.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m41.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m41.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m42.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m42.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m43.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m43.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m44.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m44.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m45.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m45.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m46.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m46.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m47.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m47.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m48.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m48.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m49.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m49.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m50.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m50.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m51.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m51.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m52.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m52.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m53.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m53.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m54.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m54.43s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m55.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m55.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m56.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m56.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m57.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m57.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m58.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m58.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m59.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m59.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m60.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m60.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m61.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m61.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m62.24s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m62.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m63.23s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m63.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m64.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m64.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m65.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m65.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m66.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m66.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m67.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m67.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m68.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m68.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m69.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m69.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m70.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m70.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m71.23s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m71.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m72.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m72.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m73.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m73.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m74.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m74.53s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m75.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m75.53s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m76.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m76.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m77.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m77.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m78.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m78.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m79.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m79.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m80.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m80.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m81.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m81.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m82.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m82.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m83.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m83.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m84.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m84.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m85.23s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m85.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m86.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m86.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m87.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m87.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m88.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m88.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m89.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m89.72s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m90.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m90.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m91.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m91.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m92.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m92.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m93.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m93.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m94.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m94.69s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m95.24s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m95.67s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m96.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m96.77s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m97.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m97.72s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m98.24s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m98.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m99.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m99.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m100.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m100.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m101.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m101.82s[K
+[K[124C[?2026h[6;1H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[124C[?2026l[2m[9;1H Test Files [32m[22m[1m5 passed[90m[22m (7)[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[m[2m
+   Start at [22m20:26:45[2m
+   Duration [22m102.24s[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m102.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m103.23s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m103.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m104.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m104.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m105.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m105.81s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m106.24s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m106.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m107.22s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m107.77s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m108.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m108.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m109.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m109.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m110.30s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m110.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m111.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m111.82s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m112.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m112.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m113.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m113.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m114.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m114.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m115.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m115.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m116.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m116.90s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m117.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m117.88s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m118.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m118.86s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m119.30s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m119.95s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m120.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m120.94s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m121.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m121.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m122.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m122.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m123.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m123.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m124.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m124.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m125.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m125.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m126.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m127.03s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m127.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m128.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m128.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m129.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m129.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m130.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m130.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m130.98s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m131.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m131.97s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m132.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m133.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m133.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m134.06s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m134.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m135.05s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m135.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m136.04s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m136.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m137.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m137.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m138.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m138.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m139.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m139.30s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m140.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m140.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m141.06s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m141.37s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m142.04s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m142.37s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m143.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m143.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m144.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m144.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m145.11s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m145.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m146.10s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m146.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m147.09s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m147.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m148.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m148.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m149.16s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m149.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m150.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m150.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m151.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m151.37s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m152.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m152.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m153.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m153.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m154.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m154.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m155.23s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m155.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m156.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m156.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m157.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m157.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m158.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m158.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m159.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m159.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m160.18s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m160.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m161.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m161.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m162.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m163.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m164.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m165.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m166.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m167.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m168.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m169.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m170.33s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m171.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m172.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m173.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m174.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m175.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m176.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m177.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m178.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m179.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m180.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m181.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m182.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m183.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m184.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m185.35s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m186.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m187.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m188.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m189.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m190.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m191.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m192.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m193.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m194.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m195.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m195.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m196.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m196.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m197.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m197.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m198.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m198.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m199.37s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m199.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m200.37s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m200.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m201.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m201.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m202.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m202.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m203.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m203.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m204.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m204.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m205.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m205.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m206.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m206.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m207.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m207.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m208.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m208.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m209.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m209.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m210.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m210.65s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m211.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m211.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m212.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m212.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m213.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m213.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m214.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m214.70s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m215.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m215.69s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m216.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m216.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m217.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m217.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m218.43s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m218.76s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m219.43s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m219.76s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m220.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m220.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m221.40s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m221.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m222.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m222.70s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m223.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m223.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m224.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m224.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m225.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m225.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m226.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m226.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m227.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m227.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m228.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m228.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m229.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m229.82s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m230.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m230.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m231.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m231.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m232.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m232.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m233.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m233.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m234.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m234.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m235.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m235.86s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m236.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m236.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m237.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m237.82s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m238.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m238.81s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m239.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m239.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m240.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m240.89s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m241.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m241.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m242.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m242.85s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m243.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m243.96s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m244.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m244.96s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m245.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m245.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m246.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m246.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m247.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m247.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m248.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m248.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m249.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m250.02s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m250.56s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m251.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m251.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m251.99s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m252.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m252.99s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m253.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m253.99s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m254.53s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m254.97s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m255.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m256.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m256.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m257.06s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m257.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m258.04s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m258.48s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m259.01s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m259.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m260.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m260.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m261.10s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m261.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m262.08s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m262.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m263.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m263.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m264.07s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m264.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m265.05s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m265.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m266.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m266.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m267.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m267.56s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m268.10s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m268.53s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m269.08s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m269.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m270.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m270.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m271.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m271.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m272.12s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m272.55s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m273.10s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m273.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m274.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m274.53s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m275.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m275.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m276.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m276.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m277.15s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m277.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m278.14s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m278.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m279.13s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m279.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m280.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m280.56s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m281.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m281.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m282.20s[K
+[K[124C[?2026h[K[124C[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m282.54s[K[105C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m283.20s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m283.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m284.17s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m284.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m285.27s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m285.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m286.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m286.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m287.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m287.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m288.19s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m288.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m289.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m289.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m290.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m290.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m291.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m291.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m292.24s[K
+[K[124C[?2026h[K[124C[12;1H[K[124C[11;1H[K[124C[10;1H[K[124C[9;1H[K[124C[8;1H[K[124C[6;1H[K
+[K[124C[?2026l[2m[9;1H Test Files [32m[22m[1m5 passed[90m[22m (7)[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[m[2m
+   Start at [22m20:26:45[2m
+   Duration [22m292.56s[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m293.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m293.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m294.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m294.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m295.21s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m295.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m296.28s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m296.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m297.25s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m297.67s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m298.31s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m298.65s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m299.30s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m299.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m300.29s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m300.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m301.26s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m301.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m302.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m302.67s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m303.34s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m303.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m304.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m304.64s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m305.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m305.72s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m306.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m306.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m307.32s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m307.65s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m308.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m308.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m309.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m309.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m310.39s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m310.72s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m311.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m311.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m312.38s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m312.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m313.36s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m313.69s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m314.46s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m314.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m315.44s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m315.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m316.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m316.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m317.41s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m317.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m318.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m318.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m319.45s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m319.77s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m320.42s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m320.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m321.52s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m321.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m322.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m322.84s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m323.50s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m323.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m324.49s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m324.82s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m325.47s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m325.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m326.56s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m326.76s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m327.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m327.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m328.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m328.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m329.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m329.84s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m330.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m330.84s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m331.51s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m331.84s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m332.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m332.84s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m333.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m333.81s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m334.59s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m334.81s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m335.57s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m335.89s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m336.54s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m336.86s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m337.63s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m337.85s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m338.62s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m338.83s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m339.60s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m339.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m340.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m340.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m341.58s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m341.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m342.68s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m342.90s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m343.67s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m343.87s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m344.64s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m344.85s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m345.61s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m345.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m346.69s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m346.90s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m347.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m347.88s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m348.64s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m348.96s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m349.72s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m349.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m350.70s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m350.91s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m351.67s[K
+[K[124C[?2026h[10;1H[K
+[K
+[K
+[K[124C[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[m[2m
+   Start at [22m20:26:45[2m
+   Duration [22m352.00s[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m352.66s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m353.00s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m353.65s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m353.98s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m354.74s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m354.96s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m355.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m355.95s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m356.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m356.93s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m357.71s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m357.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m358.69s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m359.01s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m359.78s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m359.98s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m360.75s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m360.96s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m361.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m361.95s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m362.73s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m362.95s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m363.81s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m363.92s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m364.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m365.01s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m365.79s[K
+[K[124C[?2026h[K[124C[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m366.01s[K[105C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m366.79s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m367.02s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m367.80s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m368.02s[K
+[K[124C[?2026h[?2026l[6;1H[K
+[K
+[K[2m
+ Test Files [32m[22m[1m5 passed[90m[22m (7)[K[m[2m
+      Tests [32m[22m[1m10 passed[90m[22m (10)[K[m[2m
+   Start at [22m20:26:45[K[2m
+   Duration [22m368.78s[K
+[K[124C[?2026h[?2026l

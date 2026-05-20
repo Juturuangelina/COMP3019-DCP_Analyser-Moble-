@@ -1,0 +1,3 @@
+[?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
+> @repo/web@0.1.0 check-types C:\Users\Angelina Joyce\Desktop\Semester 7\Full-Stack\Assignment_2\comp3036-2026-assignment-2-blog-group-2-angelina-juturu-1\apps\web
+> tsc --noEmit[6;1H[?25h[?9001l[?1004l
