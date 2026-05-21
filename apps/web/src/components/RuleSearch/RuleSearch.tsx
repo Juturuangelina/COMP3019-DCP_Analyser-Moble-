@@ -110,7 +110,7 @@ export default function RuleSearch() {
             value={query}
             onChange={(e) => setQuery(e.target.value)} // Update state on every keystroke
             onKeyDown={handleKeyDown}
-            placeholder="e.g. What are the rules around data validation?"
+            placeholder="e.g. Can I build a granny flat in Parramatta?"
             rows={1}
             className="w-full bg-transparent border-none outline-none text-[#070429] text-base leading-relaxed resize-none placeholder-[#A4AAEC] min-h-7 max-h-48 overflow-y-auto"
           />

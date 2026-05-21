@@ -14,16 +14,13 @@
     "postinstall": "pnpm db:generate",
     "studio": "prisma studio",
     "dev": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "db:seed": "pnpm build && node dist/run-seed.js"
   },
   "exports": {
     "./client": {
       "types": "./src/client.ts",
       "default": "./dist/client.js"
-    },
-    "./data": {
-      "types": "./src/data.ts",
-      "default": "./dist/data.js"
     },
     "./seed": {
       "types": "./src/seed.ts",

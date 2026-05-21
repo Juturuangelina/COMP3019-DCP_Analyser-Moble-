@@ -1,43 +1,35 @@
 import { PrismaClient } from "@prisma/client";
-import { posts } from "./data.js";
+import { readFileSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const prisma = new PrismaClient();
-const client = {
-    get db() {
-        return prisma;
-    },
-};
 export async function seed() {
-    //  TODO: Uncomment below once you set up Prisma and loaded data to your database
-    console.log("🌱 Seeding data");
-    await client.db.like.deleteMany();
-    await client.db.post.deleteMany();
-    for (const post of posts) {
-        await client.db.post.create({
-            data: {
-                title: post.title,
-                content: post.content,
-                category: post.category,
-                description: post.description,
-                imageUrl: post.imageUrl,
-                tags: post.tags
-                    .split(",")
-                    .map((p) => p.trim())
-                    .join(","),
-                urlId: post.urlId,
-                active: post.active,
-                date: post.date,
-                id: post.id,
-                views: post.views,
-                likes: post.likes,
-            },
-        });
-        for (let i = 0; i < post.likes; i++) {
-            await client.db.like.create({
-                data: {
-                    postId: post.id,
-                    userIP: `192.168.100.${i}`,
-                },
-            });
-        }
-    }
+    console.log("Seeding DCP rules...");
+    // Read the tagged permissible-uses rules JSON
+    const dataPath = join(__dirname, "../data/dcp_rules_tagged_permissible.json");
+    const raw = JSON.parse(readFileSync(dataPath, "utf-8"));
+    const rules = raw.rules;
+    // Wipe and re-insert
+    await prisma.rule.deleteMany();
+    await prisma.rule.createMany({
+        data: rules.map((r) => ({
+            id: r.id,
+            developmentGroup: r.development_group,
+            developmentSubCategory: r.development_sub_category,
+            partNumber: r.part_number,
+            section: r.section,
+            ruleGroup: r.rule_group,
+            ruleTitle: r.rule_title,
+            ruleType: r.rule_type,
+            ruleCode: r.rule_code,
+            ruleText: r.rule_text,
+            sourceRef: r.source_ref,
+            appliesTo: r.applies_to,
+            canonicalUseIds: r.canonical_use_ids.join("|"),
+            permissibleUses: r.permissible_uses.join("|"),
+        })),
+    });
+    console.log("Seeded " + rules.length + " DCP rules");
 }

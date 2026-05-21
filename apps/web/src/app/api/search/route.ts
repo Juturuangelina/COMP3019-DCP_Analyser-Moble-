@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
 
     // Step 3: Set up Gemini
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Step 4: Build the prompt for Gemini
     // Include permissible uses in the context so Gemini can use them

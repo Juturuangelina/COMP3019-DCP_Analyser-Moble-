@@ -5,7 +5,7 @@ import { RuleResult } from "@/types/rules"; // Import the data shape we defined
 export async function searchRules(query: string): Promise<RuleResult[]> {
 
   // Send the user's query to your Node.js backend
-  const response = await fetch("/api/rules/search", {
+  const response = await fetch("/api/search", {
     method: "POST",
     headers: {
       "Content-Type": "application/json", // Tell the server we're sending JSON
