@@ -1,6 +1,6 @@
-// Each row in this table = one rule from the parramatta JSON file.
-// permissible_uses and canonical_use_ids are stored as pipe-separated
-
+// Each row = one rule from a DCP document.
+// council identifies which LGA the rule belongs to (e.g. "parramatta").
+// permissibleUses and canonicalUseIds are stored as pipe-separated strings.
 
 generator client {
   provider = "prisma-client-js"
@@ -12,18 +12,19 @@ datasource db {
 }
 
 model Rule {
-  id                    String  @id          // e.g. "185" — matches JSON id
-  developmentGroup      String               // e.g. "Residential Development"
-  developmentSubCategory String             // e.g. "Housing Diversity and Choice"
-  partNumber            String               // e.g. "3"
-  section               String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
-  ruleGroup             String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
-  ruleTitle             String               // often empty string
-  ruleType              String               // "Control" or "Objective"
-  ruleCode              String               // e.g. "O.01"
-  ruleText              String               // the actual rule content
-  sourceRef             String               // e.g. "line:921"
-  appliesTo             String               // e.g. "Housing Diversity and Choice"
-  canonicalUseIds       String               // pipe-separated e.g. "residential_accommodation|granny_flat"
-  permissibleUses       String               // pipe-separated e.g. "Residential Accommodation|Granny Flat"
+  id                     String  @id          // e.g. "parramatta_185"
+  council                String  @default("parramatta") // LGA slug e.g. "parramatta", "albury"
+  developmentGroup       String               // e.g. "Residential Development"
+  developmentSubCategory String               // e.g. "Housing Diversity and Choice"
+  partNumber             String               // e.g. "3"
+  section                String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
+  ruleGroup              String               // e.g. "3.1 HOUSING DIVERSITY AND CHOICE"
+  ruleTitle              String               // often empty string
+  ruleType               String               // "Control" or "Objective"
+  ruleCode               String               // e.g. "O.01"
+  ruleText               String               // the actual rule content
+  sourceRef              String               // e.g. "line:921" — use to locate in PDF
+  appliesTo              String               // e.g. "Housing Diversity and Choice"
+  canonicalUseIds        String               // pipe-separated e.g. "residential_accommodation|granny_flat"
+  permissibleUses        String               // pipe-separated e.g. "Residential Accommodation|Granny Flat"
 }
