@@ -1,10 +1,3 @@
-// API route: POST /api/search
-// Body: { query: string, council: string, mode: "ai" | "keyword" }
-//
-// Two search modes:
-//   "ai"      (default) FTS5 finds top-80 candidates → Gemini re-ranks by meaning
-//   "keyword" FTS5 finds and ranks directly using BM25 — no AI call needed
-//
 // Search pipeline overview:
 //   User query → stopword filtering → FTS5 MATCH → ranked candidate rules
 //   AI mode:    candidates → Gemini prompt → re-ranked results with confidence
@@ -15,17 +8,10 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { client } from "@repo/db/client";
 import { RuleResult } from "@/types/rules";
 
-// ── Stopwords ──────────────────────────────────────────────────────────────
-// Words stripped from the query before it hits the database.
+// Following words are stripped from the query before it hits the database.
 // Without this, "what are the rules for building a fence" would search for
 // "what", "are", "the", "for", "building" — all of which appear in almost
 // every rule, returning 80 useless candidates to Gemini.
-//
-// Two categories of stopword:
-//   1. Generic English:  common words with no domain meaning (the, for, are…)
-//   2. DCP domain:       words so frequent in DCP text they add no signal
-//                        ("building" appears in ~90% of rules, "development" ~95%)
-//
 // Inspired by standard NLP stopword lists (NLTK, Snowball) adapted for the
 // Australian DCP domain.
 
@@ -63,10 +49,6 @@ const STOPWORDS = new Set([
 
 // Strips punctuation, lowercases, splits on whitespace, then removes
 // stopwords and short words (≤3 chars). Returns the meaningful search terms.
-//
-// Example: "What are the rules for building a fence?"
-//   raw tokens:  ["what","are","the","rules","for","building","a","fence"]
-//   after filter: ["fence"]   ← only truly meaningful term
 
 function extractKeywords(query: string): string[] {
   return query
@@ -76,22 +58,9 @@ function extractKeywords(query: string): string[] {
     .filter((w) => w.length > 3 && !STOPWORDS.has(w));
 }
 
-// ── FTS5 Search ────────────────────────────────────────────────────────────
 // SQLite FTS5 (Full-Text Search 5) is a virtual table extension built into
 // SQLite. It tokenises text at index time and at query time, then uses the
 // BM25 algorithm to rank results by relevance.
-//
-// Why FTS5 beats LIKE / contains:
-//   LIKE '%fence%'  → matches "conference", "inference" (substring anywhere)
-//   FTS5 "fence"    → word-boundary match: only rules where "fence" is a token
-//   FTS5 "fence*"   → prefix match: "fence", "fencing", "fences"
-//
-// BM25 is a probabilistic ranking function that weighs term frequency against
-// how common the term is across the whole document collection. A rule that
-// mentions "fence" three times ranks higher than one that mentions it once.
-// FTS5 returns rank as a negative number; more negative = better match.
-//
-// The FTS5 virtual table (rule_fts) is created and populated by seed.ts.
 // Reference: https://www.sqlite.org/fts5.html
 // BM25 algorithm: https://en.wikipedia.org/wiki/Okapi_BM25
 
@@ -104,17 +73,9 @@ async function searchFTS5(
   if (keywords.length === 0) return [];
 
   // Build the FTS5 MATCH query string.
-  // Append * to each keyword for prefix matching:
-  //   "fence*"  → matches "fence", "fencing", "fences"
-  //   "setback*" → matches "setback", "setbacks"
-  // Space-separated terms are treated as implicit AND by FTS5:
-  //   "fence* setback*" → rule must contain BOTH "fence..." AND "setback..."
   const andQuery = keywords.map((k) => k + "*").join(" ");
 
   try {
-    // $queryRawUnsafe is used here because FTS5's MATCH operator requires the
-    // query to be passed as a positional parameter (?), not a Prisma template
-    // literal — Prisma's tagged template wrapping can confuse the FTS5 parser.
     let matches = await client.db.$queryRawUnsafe<{ id: string; rank: number }[]>(
       `SELECT id, rank FROM rule_fts WHERE rule_fts MATCH ? AND council = ? ORDER BY rank LIMIT ?`,
       andQuery,
@@ -122,9 +83,8 @@ async function searchFTS5(
       limit,
     );
 
-    // Graceful fallback: if AND returns too few results (e.g. query is very
-    // specific and no single rule covers all terms), widen to OR so the user
-    // still sees something rather than a blank page.
+    // if AND returns too few results (e.g. query is very specific and no single rule covers all terms), 
+    // widen to OR so the user still sees something rather than a blank page.
     if (matches.length < 3 && keywords.length > 1) {
       const orQuery = keywords.map((k) => k + "*").join(" OR ");
       matches = await client.db.$queryRawUnsafe<{ id: string; rank: number }[]>(
@@ -144,7 +104,7 @@ async function searchFTS5(
   }
 }
 
-// ── Fetch full Rule records for a list of FTS5 match IDs ──────────────────
+
 // FTS5 only stores text for indexing; the full Prisma Rule record is needed
 // for the UI. We look up by ID and re-sort to preserve the FTS5 rank order.
 
@@ -206,16 +166,6 @@ async function searchKeywordMode(
     });
 }
 
-// ── AI mode: FTS5 finds candidates → Gemini re-ranks by meaning ───────────
-// FTS5 narrows 6,474 rules down to the 80 most textually relevant candidates.
-// Gemini then reads the full question and the candidates to understand intent,
-// picking the 3–8 rules that genuinely answer the question with a confidence
-// score it assigns based on semantic relevance.
-//
-// This two-stage approach is important:
-//   • FTS5 alone cannot understand meaning ("shed" ≠ "outbuilding")
-//   • Gemini alone would need all 6,474 rules in context (too many tokens)
-//   Together: precise candidates + semantic understanding
 
 async function searchAIMode(
   query: string,

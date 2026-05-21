@@ -3,8 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { RuleResult } from "@/types/rules";
 
-// ── Council config ──────────────────────────────────────────────────────────
-
+// Council config
 const COUNCILS = [
   { id: "parramatta", label: "Parramatta",  available: true  },
   { id: "bankstown",  label: "Bankstown",   available: false },
@@ -14,7 +13,7 @@ const COUNCILS = [
 
 type CouncilId = (typeof COUNCILS)[number]["id"];
 
-// ── Search mode config ──────────────────────────────────────────────────────
+// Search mode config 
 
 const MODES = [
   {
@@ -31,7 +30,7 @@ const MODES = [
 
 type ModeId = (typeof MODES)[number]["id"];
 
-// ── Confidence label helper ─────────────────────────────────────────────────
+//Confidence label helper 
 
 function confidenceLabel(score: number) {
   if (score >= 0.9)  return { label: "High match",     color: "text-[#534AB7]", bar: "bg-[#534AB7]" };
@@ -39,7 +38,7 @@ function confidenceLabel(score: number) {
   return               { label: "Possible match",      color: "text-[#908478]", bar: "bg-[#908478]" };
 }
 
-// ── Main component ──────────────────────────────────────────────────────────
+// Main component 
 
 export default function RuleSearch() {
   const [query,      setQuery]      = useState("");
@@ -65,7 +64,7 @@ export default function RuleSearch() {
   const councilLabel = COUNCILS.find((c) => c.id === council)?.label ?? "DCP";
   const placeholder = `e.g. What are the setback requirements for a granny flat in ${councilLabel}?`;
 
-  // ── Search ────────────────────────────────────────────────────────────────
+  // Search
 
   const handleSearch = async () => {
     if (!query.trim()) return;
@@ -106,8 +105,7 @@ export default function RuleSearch() {
     inputRef.current?.focus();
   };
 
-  // ── Render ────────────────────────────────────────────────────────────────
-
+  // Render 
   return (
     <div
       className="min-h-screen bg-[#F8F2F5] px-4 relative overflow-x-hidden font-sans"
