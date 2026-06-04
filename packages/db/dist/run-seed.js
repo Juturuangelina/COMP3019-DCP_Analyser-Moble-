@@ -1,5 +1,6 @@
 import { seed } from "./seed.js";
-seed()
+seed("parramatta")
+    .then(() => seed("bankstown"))
     .then(() => process.exit(0))
     .catch((e) => {
     console.error(e);

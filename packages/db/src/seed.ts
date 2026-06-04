@@ -25,10 +25,18 @@ type RawRule = {
   permissible_uses: string[];
 };
 
-export async function seed(council = "parramatta") {
-  console.log("Seeding DCP rules for council: " + council);
+export async function seed(council : string) {
+  const DATA_FILES = {
+  parramatta: "dcp_rules_tagged_permissible.json",
+  bankstown:  "bankstown_dcp_rules_v2_full.json",
+};
 
-  const dataPath = join(__dirname, "../data/dcp_rules_tagged_permissible.json");
+  const fileName = DATA_FILES[council as keyof typeof DATA_FILES];
+  if (!fileName) 
+    {
+      throw new Error(`No data file configured for council: ${council}`);
+    }  
+  const dataPath = join(__dirname, "../data/" + fileName);
   const raw = JSON.parse(readFileSync(dataPath, "utf-8"));
   const rules: RawRule[] = raw.rules;
 

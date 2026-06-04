@@ -6,7 +6,7 @@ import { RuleResult } from "@/types/rules";
 // Council config
 const COUNCILS = [
   { id: "parramatta", label: "Parramatta",  available: true  },
-  { id: "bankstown",  label: "Bankstown",   available: false },
+  { id: "bankstown",  label: "Bankstown",   available: true },
   { id: "albury",     label: "Albury",      available: false },
   { id: "willoughby", label: "Willoughby",  available: false },
 ] as const;

@@ -5,9 +5,16 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const prisma = new PrismaClient();
-export async function seed(council = "parramatta") {
-    console.log("Seeding DCP rules for council: " + council);
-    const dataPath = join(__dirname, "../data/dcp_rules_tagged_permissible.json");
+export async function seed(council) {
+    const DATA_FILES = {
+        parramatta: "dcp_rules_tagged_permissible.json",
+        bankstown: "bankstown_dcp_rules_v2_full.json",
+    };
+    const fileName = DATA_FILES[council];
+    if (!fileName) {
+        throw new Error(`No data file configured for council: ${council}`);
+    }
+    const dataPath = join(__dirname, "../data/" + fileName);
     const raw = JSON.parse(readFileSync(dataPath, "utf-8"));
     const rules = raw.rules;
     // Remove existing rules for this council only
