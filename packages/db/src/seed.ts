@@ -28,7 +28,7 @@ type RawRule = {
 export async function seed(council : string) {
   const DATA_FILES = {
   parramatta: "dcp_rules_tagged_permissible.json",
-  bankstown:  "bankstown_dcp_rules_v2_full.json",
+  bankstown:  "bankstown_dcp_rules_final.json",
 };
 
   const fileName = DATA_FILES[council as keyof typeof DATA_FILES];
