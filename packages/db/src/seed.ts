@@ -30,6 +30,7 @@ export async function seed(council : string) {
   parramatta: "dcp_rules_tagged_permissible.json",
   bankstown:  "bankstown_dcp_rules_final.json",
   albury:  "albury_dcp_rules_v2.json",
+  willoughby:  "albury_dcp_rules_v2.json",
 };
 
   const fileName = DATA_FILES[council as keyof typeof DATA_FILES];

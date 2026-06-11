@@ -8,7 +8,7 @@ const COUNCILS = [
   { id: "parramatta", label: "Parramatta",  available: true  },
   { id: "bankstown",  label: "Bankstown",   available: true },
   { id: "albury",     label: "Albury",      available: true },
-  { id: "willoughby", label: "Willoughby",  available: false },
+  { id: "willoughby", label: "Willoughby",  available: true },
 ] as const;
 
 type CouncilId = (typeof COUNCILS)[number]["id"];
