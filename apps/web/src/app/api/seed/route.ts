@@ -6,6 +6,9 @@ export async function GET() {
     return new Response("Not Available", { status: 501 });
   }
 
-  await seed();
+  await seed("parramatta");
+  await seed("bankstown");
+  await seed("albury");
+  await seed("willoughby");
   return NextResponse.json({ message: "Seeded" }, { status: 200 });
 }
