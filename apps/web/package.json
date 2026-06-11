@@ -20,7 +20,7 @@
     "@repo/utils": "workspace:*",
     "@tailwindcss/postcss": "^4.0.0",
     "marked": "^15.0.6",
-    "next": "^15.1.6",
+    "next": "^16.2.9",
     "postcss": "^8.5.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
