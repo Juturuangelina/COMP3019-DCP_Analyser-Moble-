@@ -1,4 +1,6 @@
 import { PrismaClient } from "@prisma/client";
+import { PrismaLibSQL } from "@prisma/adapter-libsql";
+import { createClient as createLibSQLClient } from "@libsql/client";
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -6,7 +8,19 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const prisma = new PrismaClient();
+function createPrismaClient() {
+  if (process.env.DATABASE_TURSO_DATABASE_URL && process.env.DATABASE_TURSO_AUTH_TOKEN) {
+    const turso = createLibSQLClient({
+      url: process.env.DATABASE_TURSO_DATABASE_URL,
+      authToken: process.env.DATABASE_TURSO_AUTH_TOKEN,
+    });
+    const adapter = new PrismaLibSQL(turso);
+    return new PrismaClient({ adapter });
+  }
+  return new PrismaClient({ datasourceUrl: process.env.DATABASE_URL });
+}
+
+const prisma = createPrismaClient();
 
 type RawRule = {
   id: string;
